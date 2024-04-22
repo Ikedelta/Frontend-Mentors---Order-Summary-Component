@@ -1,0 +1,107 @@
+.background{
+    
+}
+
+.container{
+   max-width: 375px;
+    margin: auto auto;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Red_Hat_Display", sans-serif;
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.container p{
+    color:  hsl(224, 23%, 55%);
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.image{
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.mini{
+    margin: 0 auto;
+    max-width: 290px;
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.minitext{
+    margin-right: 75px;
+}
+
+.miniimage{
+    margin-right: 15px;
+}
+
+
+
+.minitext strong p{
+    margin: 5px 0px 5px 0px;
+    color: black;
+}
+
+.minitext p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.link{
+    text-decoration: underline;
+   
+     
+}
+
+p .link{
+    color: rgb(32, 4, 70);
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    width: 310px;
+    padding: 15px;
+    margin: 20px 20px 15px 20px;
+    background-color:hsl(245, 75%, 52%);
+}
+
+#cancel{
+    background-color: white;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.attribution{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+#payment{
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+}
+
+#payment:hover{
+    scale: 1.05;
+    transition: 0.6s;
+}
